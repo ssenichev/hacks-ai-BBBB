@@ -75,6 +75,6 @@ def locate(raw_text, tokens, top_k=20, top_n=20):
 # в CRS аргумент надо передать укрупненную категорию, которую предсказала моделька
 # PREPROCESSED_TEXT - обработанный текст из deploy_model, 149я строка деплоя preprocessed_user_string
 # RAW_TEXT - текст пресс-релиза
-tkn_dict, df_score = get_sentiment(PREPROCESSED_TEXT, model, CRS=crs, token_len=7, step=7)
+tkn_dict, df_score = get_sentiment(RAW_TEXT, model, CRS=crs, token_len=7, step=7)
 located_dict, located_df = locate(RAW_TEXT, df_score.batch.to_list(), top_n=7)
 key_phrases_raw = located_df.raw_text.to_list()

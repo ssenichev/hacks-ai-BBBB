@@ -13,7 +13,6 @@
     <a href="https://huggingface.co/docs/transformers/index">
         <img src="https://img.shields.io/badge/transformers-ffcf48?style=flat&logo=transformers&logoColor=white" alt="transformers badge"/>
     </a>
-    
     <a href="https://www.nltk.org">
         <img src="https://img.shields.io/badge/nltk-%23042e3c?style=flat&logo=nltk&logoColor=white" alt="nltk badge"/>
     </a>
